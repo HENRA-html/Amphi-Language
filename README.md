@@ -13,7 +13,6 @@ The **Amphi Language Extension** brings full language support for **Amphi**—a 
 - **Terminal-Style Commands:** Open, extract, delete, run, move, and edit files or folders with dedicated commands in the `{!COMMAND}` block.
 - **Boolean Evaluation:** Use a question mark (`?`) to evaluate expressions as true or false (e.g., `?x=2`).
 
-## New Comment Syntax
 
 In Amphi, comments start with `/!` and end with `!/`. Heres a example that covers almost everything:
 
