@@ -1,0 +1,32 @@
+{
+  "name": "amphi-language",
+  "displayName": "Amphi Language",
+  "description": "Syntax highlighting and compiler integration for Amphi",
+  "version": "0.0.1",
+  "publisher": "henra",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "activationEvents": [
+    "onLanguage:amphi"
+  ],
+  "main": "./src/extension.js",
+  "contributes": {
+    "languages": [
+      {
+        "id": "amphi",
+        "aliases": ["Amphi", "amphi"],
+        "extensions": [".amph"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "amphi",
+        "scopeName": "source.amphi",
+        "path": "./syntaxes/amphi.tmLanguage.json"
+      }
+    ]
+  },
+  "categories": ["Programming Languages"]
+}

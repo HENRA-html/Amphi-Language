@@ -1,0 +1,12 @@
+{
+  "scopeName": "source.amphi",
+  "name": "Amphi",
+  "patterns": [
+    { "match": "function:", "name": "keyword.control.amphi" },
+    { "match": "\\b(str|string|int|dec|bool|object|frac|undef|var|bin)\\b", "name": "storage.type.amphi" },
+    { "match": "\\b(if|else|loop\\.amt|define|command)\\b", "name": "keyword.other.amphi" },
+    { "match": "\\".*?\\"", "name": "string.quoted.double.amphi" }
+  ],
+  "fileTypes": ["amph"],
+  "uuid": "amphi-uuid-001"
+}
